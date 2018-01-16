@@ -1,0 +1,30 @@
+.content_highlight {
+  background-color: red !important;
+  outline: 5px solid blue !important;
+  margin: 5px !important;
+}
+.control_button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: block;
+  z-index: 999999;
+
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 2px;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.control_button:hover {
+  background-color: blue;
+  color: white;
+}
+

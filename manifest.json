@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Hide It, Please",
+  "version": "0.0.1",
+  
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["content/content.css"],
+      "js": [
+        "content/buttons.js", 
+        "content/bag.js", 
+        "content/node_walker.js",
+        "content/content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [ "main.js" ]
+  },
+  "browser_action": {
+      "default_title": "LostTime",
+      "default_icon": "images/icon.png",
+      "default_popup": "browser_action/browser_action.html"
+  }
+}
