@@ -1,6 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Hide It, Please",
+  "name": "Hide It, Please -- Hide anything on the page!",
+  "short_name": "Hide It, Please",
+  "description": "Hide anything anywhere and enjoy with clear web.",
   "version": "0.0.1",
   
   "icons": {
