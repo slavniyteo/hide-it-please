@@ -39,7 +39,8 @@ Bag = function(){
     if (node.textContent){
       key += ' -- ' + node.textContent;
     }
-    key = key.replace(/(\r\n|\n|\r)/gm,"");
+    key = key.replace(/(\r\n|\n|\r)/gm,''); // Remove line greaks
+    key = key.replace(/(\'|\")/gm, ''); // Remove quotes
     return key;
   }
 }
