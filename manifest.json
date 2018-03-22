@@ -28,7 +28,7 @@
     "scripts": [ "main.js" ]
   },
   "browser_action": {
-      "default_title": "LostTime",
+      "default_title": "Hide It, Pleace",
       "default_icon": "images/icon.png",
       "default_popup": "browser_action/browser_action.html"
   }
